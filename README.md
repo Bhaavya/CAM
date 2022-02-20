@@ -24,7 +24,7 @@ Each file contains the following on each new line:
 
 Each file contains the following on each new line:
 
-`{Generated Analogy}\t{Target Concept}\t{Prompt}\t{Temperature (low -- lt or high -- ht)}\t{Domain/Preference/Discipline}\t{Extracted Source(s)}`
+>{Generated Analogy}\t{Target Concept}\t{Prompt}\t{Temperature -- low: lt or high: ht}\t{Domain/Preference/Discipline}\t{Extracted Source(s)}
 
 
 
