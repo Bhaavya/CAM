@@ -11,7 +11,7 @@ For all files names, p<em>n</em> means analogies generated with prompt id <em>n<
 
 Each file contains the following on each new line:
 
-{Generated Analogy}\t{Target Concept}\t{Prompt}
+`{Generated Analogy}\t{Target Concept}\t{Prompt}`
 
 
 
