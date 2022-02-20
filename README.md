@@ -26,7 +26,12 @@ In case the PLM generated multiple mappings between source and target concepts, 
 
 ## Retrieval-based Analogy Mining
 
-`/data/ret_am/`: Each file contains a json dictionary with the following keys and values: (1) "src_spec_res" with lists of Bing search results returned for <em>source-specific</em> queries, (2) "gen_res" with lists of Bing search results returned for <em>general</em> queries, (3) "all_bing_queries" with the list of all the Bing queries 
+`/data/ret_am/`: Each file contains analogies retrieved from the Web for one target and source concept pair. It has a json dictionary with the following keys and values: (1) "src_spec_res" with lists of Bing search results returned for <em>source-specific</em> queries, (2) "gen_res" with lists of Bing search results returned for <em>general</em> queries, (3) "all_bing_queries" with the list of all the source-specific and general queries 
 
 ## Analoginess Scorer
 
+* `/data/analoginess_scorer/discp_adapt.txt`: Candidate Discipline-specific Adaptive Analogies classified as non-analogy and analogy
+* `/data/analoginess_scorer/pref_adapt.txt`: Candidate Preference-specific Adaptive Analogies classified as non-analogy and analogy
+* `/data/analoginess_scorer/non_adapt.txt`: Candidate Non-Adaptive Analogies classified as non-analogy and analogy
+
+Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Predicted Class (0 -- non-analogy, 1 -- analogy). 
