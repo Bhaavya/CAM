@@ -20,7 +20,9 @@ Each file contains the following fields separated by tab: (1) Generated Analogy,
 * `/data/extracted_src/pref_adapt.txt`: Source extracted from Preference-specific Adaptive Analogies
 * `/data/extracted_src/non_adapt.txt`: Source extracted from Non-Adaptive Analogies
 
-Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Extracted Source(s)
+Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Extracted Source(s). 
+
+In case the PLM generated multiple mappings between source and target concepts, they are separated by ###. We only used the first mapping in our experiments.
 
 
 
