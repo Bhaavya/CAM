@@ -1,5 +1,8 @@
 Repository for code and data associated with the A2M framework paper.
+
 ## Data
+
+# PLM-based Analogy Generation
 
 * [Candidate Discipline-specific Adaptive Analogies for arts, social science (ss) and business (bus) disciplines](/data/discp_adapt)
 * [Candidate Preference-specific Adaptive Analogies for cooking (cook), gardening (gar), music (mus), and sports preferences](/data/pref_adapt)
@@ -12,6 +15,16 @@ For all files names, p<em>n</em> means analogies generated with prompt id <em>n<
 Each file contains the following on each new line:
 
 `{Generated Analogy}\t{Target Concept}\t{Prompt}`
+
+# Source Extraction
+
+* [Source extracted from Discipline-specific Adaptive Analogies](/data/extracted_src/discp_adapt)
+* [Source extracted from Preference-specific Adaptive Analogies](/data/extracted_src/pref_adapt)
+* [Source extracted from Non-Adaptive Analogies](/data/extracted_src/non_adapt)
+
+Each file contains the following on each new line:
+
+`{Generated Analogy}\t{Target Concept}\t{Prompt}\t{Temperature (low -- lt or high -- ht)}\t{Domain/Preference/Discipline}\t{Extracted Source(s)}`
 
 
 
