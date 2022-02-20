@@ -28,5 +28,5 @@ In case the PLM generated multiple mappings between source and target concepts, 
 
 `/data/ret_am/`: Each file contains a json dictionary with the following keys and values: (1) "src_spec_res" with lists of Bing search results returned for <em>source-specific</em> queries, (2) "gen_res" with lists of Bing search results returned for <em>general</em> queries, (3) "all_bing_queries" with the list of all the Bing queries 
 
-
+## Analoginess Scorer
 
