@@ -45,5 +45,5 @@ In case the PLM generated multiple mappings between source and target concepts, 
 ## Ranked Analogies
 
 * `/data/ranked_analogies/discp_adapt.txt`: Contains Adaptive Analogy Ranking Score, Reliability Score, and Adaptiveness Score of Discipline-Specific Adaptive Analogies.  
-* `/data/ranked_analogies/pref_adapt.txt`: File contains Adaptive Analogy Ranking Score, Reliability Score, and Adaptiveness Score of Preference-specific Adaptive Analogies.  
-* `/data/ranked_analogies/non_adapt.txt`: File contains Creative and Existing Analogy Ranking Score, Reliability Score, and Creativity Score of Non-Adaptive Analogies.  
+* `/data/ranked_analogies/pref_adapt.txt`: Contains Adaptive Analogy Ranking Score, Reliability Score, and Adaptiveness Score of Preference-specific Adaptive Analogies.  
+* `/data/ranked_analogies/non_adapt.txt`: Contains Creative and Existing Analogy Ranking Score, Reliability Score, and Creativity Score of Non-Adaptive Analogies.  
