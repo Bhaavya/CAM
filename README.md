@@ -24,9 +24,11 @@ Each file contains the following fields separated by tab: (1) Generated Analogy,
 
 ### After Prompt Refinement: 
 
-* `/data/analoginess_scorer/prompt_refiner/discp_adapt.txt`: Candidate Discipline-specific Adaptive Analogies classified as non-analogy and analogy
-* `/data/analoginess_scorer/prompt_refiner/pref_adapt.txt`: Candidate Preference-specific Adaptive Analogies classified as non-analogy and analogy
-* `/data/analoginess_scorer/prompt_refiner/non_adapt.txt`: Candidate Non-Adaptive Analogies classified as non-analogy and analogy
+* `/data/analoginess_scorer/prompt_refiner/discp_adapt.txt`: Candidate Discipline-specific Adaptive Analogies classified as non-analogy and analogy after prompt refinement
+* `/data/analoginess_scorer/prompt_refiner/pref_adapt.txt`: Candidate Preference-specific Adaptive Analogies classified as non-analogy and analogy after prompt refinement
+* `/data/analoginess_scorer/prompt_refiner/non_adapt.txt`: Candidate Non-Adaptive Analogies classified as non-analogy and analogy after prompt refinement
+
+Each file contains the following fields separated by tab: (1) Generated analogy after prompt refinement, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Predicted Class (0 -- non-analogy, 1 -- analogy), (7) Generated analogy before prompt refinement (classified as non-analogy).
 
 ## PLM-based Source Extraction
 
