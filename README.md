@@ -22,7 +22,7 @@ Each file contains the following fields separated by tab: (1) Generated Analogy,
 
 Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Predicted Class (0 -- non-analogy, 1 -- analogy).
 
-# After Prompt Refinement: 
+### After Prompt Refinement: 
 
 * `/data/analoginess_scorer/prompt_refiner/discp_adapt.txt`: Candidate Discipline-specific Adaptive Analogies classified as non-analogy and analogy
 * `/data/analoginess_scorer/prompt_refiner/pref_adapt.txt`: Candidate Preference-specific Adaptive Analogies classified as non-analogy and analogy
@@ -44,3 +44,6 @@ In case the PLM generated multiple mappings between source and target concepts, 
 
 ## Ranked Analogies
 
+* `/data/ranked_analogies/discp_adapt.txt`: Contains Adaptive Analogy Ranking Score, Reliability Score, and Adaptiveness Score of Discipline-Specific Adaptive Analogies.  
+* `/data/ranked_analogies/pref_adapt.txt`: File contains Adaptive Analogy Ranking Score, Reliability Score, and Adaptiveness Score of Preference-specific Adaptive Analogies.  
+* `/data/ranked_analogies/non_adapt.txt`: File contains Creative and Existing Analogy Ranking Score, Reliability Score, and Creativity Score of Non-Adaptive Analogies.  
