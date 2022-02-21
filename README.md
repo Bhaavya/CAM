@@ -12,7 +12,15 @@ Repository for code and data associated with the A2M framework paper.
 
 For all files names, p<em>n</em> means analogies generated with prompt id <em>n</em> in the paper, ht means high temperature, lt means low temperature.
 
-Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt
+Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt.
+
+## Analoginess Scorer
+
+* `/data/analoginess_scorer/discp_adapt.txt`: Candidate Discipline-specific Adaptive Analogies classified as non-analogy and analogy
+* `/data/analoginess_scorer/pref_adapt.txt`: Candidate Preference-specific Adaptive Analogies classified as non-analogy and analogy
+* `/data/analoginess_scorer/non_adapt.txt`: Candidate Non-Adaptive Analogies classified as non-analogy and analogy
+
+Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Predicted Class (0 -- non-analogy, 1 -- analogy).
 
 ## PLM-based Source Extraction
 
@@ -20,13 +28,10 @@ Each file contains the following fields separated by tab: (1) Generated Analogy,
 * `/data/extracted_src/pref_adapt.txt`: Source extracted from Preference-specific Adaptive Analogies
 * `/data/extracted_src/non_adapt.txt`: Source extracted from Non-Adaptive Analogies
 
-Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Extracted Source(s). 
+Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Extracted Source(s).
 
 In case the PLM generated multiple mappings between source and target concepts, they are separated by ###. We only used the first mapping in our experiments.
 
 ## Retrieval-based Analogy Mining
 
-`/data/ret_am/`: Each file contains a json dictionary with the following keys and values: (1) "src_spec_res" with lists of Bing search results returned for <em>source-specific</em> queries, (2) "gen_res" with lists of Bing search results returned for <em>general</em> queries, (3) "all_bing_queries" with the list of all the Bing queries 
-
-## Analoginess Scorer
-
+`/data/ret_am/`: Each file contains analogies retrieved from the Web for one target and source concept pair. It has a json dictionary with the following keys and values: (1) "src_spec_res" with lists of Bing search results returned for <em>source-specific</em> queries, (2) "gen_res" with lists of Bing search results returned for <em>general</em> queries, (3) "all_bing_queries" with the list of all the source-specific and general queries.
