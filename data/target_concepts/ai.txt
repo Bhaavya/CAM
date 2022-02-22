@@ -1,0 +1,416 @@
+accuracy
+algorithm
+attribute
+bias metric
+bias term
+categorical variables
+classification
+classification threshold
+clustering
+confusion matrix
+continuous variables
+convergence
+deduction
+deep learning
+dimension
+epoch
+extrapolation
+false positive rate
+feature
+feature selection
+feature vector
+gradient accumulation
+hyperparameters
+induction
+instance
+label
+learning rate
+loss
+machine learning
+model
+neural networks
+normalization
+noise
+null accuracy
+observation
+outlier
+overfitting
+parameters
+precision
+recall
+recall vs precision
+regression
+regularization
+reinforcement learning
+roc curve
+segmentation
+specificity
+supervised learning
+test set
+training set
+transfer learning
+true positive rate
+type 1 error
+type 2 error
+underfitting
+Universal Approximation Theorem
+unsupervised learning
+validation set
+variance
+ A/B testing
+ accuracy
+action
+activation function
+active learning
+ AdaGrad
+ agent
+ agglomerative clustering
+ anomaly detection
+ AR
+ area under the PR curve
+ area under the ROC curve
+ artificial general intelligence
+ artificial intelligence
+ attention
+ attribute
+ AUC (Area under the ROC Curve)
+ augmented reality
+ automation bias 
+ average precision 
+ backpropagation
+ bag of words
+ baseline
+ batch
+ batch normalization
+ batch size
+ Bayesian neural network
+ Bayesian optimization
+ Bellman equation
+ BERT (Bidirectional Encoder Representations from Transformers)
+ bias (ethics/fairness)
+ bias (math)
+ bigram
+ bidirectional
+ bidirectional language model
+ binary classification
+ binning
+ BLEU (Bilingual Evaluation Understudy)
+ boosting
+ bounding box
+ broadcasting
+ bucketing
+ calibration layer
+ candidate generation
+ candidate sampling
+ categorical data
+ causal language model
+centroid
+ centroid-based clustering
+clustering
+ co-adaptation
+ collaborative filtering
+ confirmation bias 
+ confusion matrix
+ continuous feature
+ convenience sampling
+ convergence
+ convex function
+convex optimization
+convex set
+convolution
+convolutional filter
+convolutional layer
+convolutional neural network
+convolutional operation
+ cost
+ co-training
+ counterfactual fairness 
+ coverage bias 
+ crash blossom
+ critic
+ cross-entropy
+ cross-validation
+ data analysis
+ data augmentation
+ decision boundary
+ decision threshold
+ decision tree
+ deep model
+ decoder
+ deep neural network
+ Deep Q-Network (DQN)
+ demographic parity
+ denoising
+ dense feature
+ dense layer
+ depth
+depthwise separable convolutional neural network (sepCNN)
+ dimension reduction
+ dimensions 
+ discrete feature
+ discriminative model
+ discriminator
+ disparate impact
+ disparate treatment
+ divisive clustering
+ downsampling
+ DQN
+ early stopping
+ earth mover's distance (EMD)
+ embeddings
+ embedding space
+ empirical risk minimization (ERM)
+ encoder
+ ensemble
+ environment
+ episode
+ epoch
+ epsilon greedy policy
+ equality of opportunity 
+ equalized odds
+ example
+ experience replay
+ experimenter's bias 
+ exploding gradient problem
+ fairness constraint
+ fairness metric
+ feature vector
+ federated learning
+ feedback loop
+ feedforward neural network (FFN)
+ few-shot learning
+fine tuning
+forget gate
+ full softmax
+ fully connected layer
+ GAN
+ generalization
+ generalization curve
+ generalized linear model
+ generative adversarial network (GAN)
+ generative model
+ generator
+ GPT (Generative Pre-trained Transformer)
+ gradient
+ gradient clipping
+ greedy policy
+ ground truth
+ group attribution bias 
+ hashing
+ heuristic
+ hidden layer
+ hierarchical clustering
+ hinge loss
+ holdout data
+ hyperparameter
+ hyperplane
+ i.i.d.
+ image recognition
+ imbalanced dataset
+ implicit bias 
+ incompatibility of fairness metrics
+independently and identically distributed (i.i.d)
+ individual fairness
+ inference
+ in-group bias 
+ input layer
+ instance
+ interpretability
+ inter-rater agreement
+ intersection over union (IoU)
+IoU
+ item matrix
+ items
+ iteration
+ Keras
+ keypoints
+Kernel Support Vector Machines (KSVMs)
+ k-means
+ k-median
+ L1 loss
+ L1 regularization
+ L2 loss
+ L2 regularization
+ label
+ labeled example
+ LaMDA (Language Model for Dialogue Applications)
+ lambda
+ landmarks
+ language model
+ large language model
+ learning rate
+ least squares regression
+ linear model
+ linear regression
+ logistic regression
+ logits
+ Log Loss
+ log-odds
+ Long Short-Term Memory (LSTM)
+ loss
+ loss curve
+ loss surface
+ LSTM
+ machine learning
+ majority class
+ Markov decision process (MDP)
+ Markov property
+ masked language model
+ matplotlib
+ matrix factorization
+ meta-learning
+ Metrics API (tf.metrics)
+ mini-batch
+ mini-batch stochastic gradient descent
+ minimax loss
+ minority class
+ ML
+ MNIST
+ modality
+ model
+ model capacity
+ model parallelism
+ model training
+ Momentum
+ multi-class classification
+ multi-class logistic regression
+ multi-head self-attention
+ multimodal model
+ multinomial classification
+ multinomial regression
+ NaN trap
+ natural language understanding
+ negative class
+ neural network
+ neuron
+ N-gram
+ NLU
+ noise
+ non-response bias 
+ optimizer
+ out-group homogeneity bias 
+ parameter update
+ partial derivative
+ participation bias
+ partitioning strategy
+ perceptron
+ performance
+ perplexity
+ pipeline
+ pipelining
+ policy
+ pooling
+ positive class
+ post-processing
+ PR AUC (area under the PR curve)
+ precision
+ precision-recall curve
+ prediction
+ prediction bias
+ predictive parity
+ predictive rate parity
+ preprocessing
+ pre-trained model
+ prior belief
+ probabilistic regression model
+ proxy (sensitive attributes)
+ proxy labels
+ Q-function
+ Q-learning
+ random forest
+ random policy
+ rater
+ recall
+ recommendation system
+ Rectified Linear Unit (ReLU)
+ recurrent neural network 
+ regression model
+ regularization
+ regularization rate
+ reinforcement learning (RL)
+ replay buffer
+ reporting bias 
+ representation
+ re-ranking
+ return
+ reward
+ ridge regularization
+ RNN
+ Root Mean Squared Error (RMSE)
+ rotational invariance
+ sampling bias 
+ scalar
+ scaling
+ scikit-learn
+ scoring
+ selection bias 
+ self-attention (also called self-attention layer)
+ self-supervised learning
+ self-training
+ semi-supervised learning
+ sensitive attribute
+ sentiment analysis
+ sequence model
+ sequence-to-sequence task
+ serving
+ shape (Tensor)
+ sigmoid function
+ similarity measure
+ size invariance
+ sketching
+ softmax
+ sparse feature
+ sparse representation
+ sparse vector
+ sparsity
+ spatial pooling
+ squared hinge loss
+ squared loss
+ staged training
+ state
+ state-action value function
+ static model
+ stationarity
+ step
+ step size
+ stochastic gradient descent (SGD)
+ stride
+ structural risk minimization (SRM)
+ subsampling
+ supervised machine learning
+ synthetic feature
+ tabular Q-learning
+ target
+ target network
+ termination condition
+ time series analysis
+timestep
+ token
+ training
+ training set
+ trajectory
+ transfer learning
+ Transformer
+ translational invariance
+ trigram
+ true negative (TN)
+ true positive (TP)
+ true positive rate (TPR)
+ unawareness (to a sensitive attribute)
+ underfitting
+ undersampling
+ unidirectional
+ unidirectional language model
+ unlabeled example
+ unsupervised machine learning
+ upweighting
+ user matrix
+ validation
+ validation set
+vanishing gradient problem
+Wasserstein loss
+ weight
+Weighted Alternating Least Squares (WALS)
+ wide model
+ width
+ word embedding

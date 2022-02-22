@@ -1,0 +1,240 @@
+access
+access and identity management
+access control  
+access control mechanism  
+active attack  
+active content  
+Advanced Persistent Threat  
+adversary  
+air gap  
+alert  
+Allowlist
+All Source Intelligence 
+Analyze
+antispyware software  
+antivirus software
+asset
+asymmetric cryptography  
+attack
+attack method  
+attack mode
+attack path  
+attack pattern  
+attack signature  
+attack surface  
+attacker
+authenticate
+authentication  
+authenticity  
+authorization
+availability  
+behavior monitoring  
+Blocklist  
+Blue Team  
+bot
+bot herder
+bot master
+botnet  
+bug  
+Build Security In  
+capability  
+cipher
+ciphertext  
+cloud computing  
+Collect &amp; Operate
+Collection Operations
+computer forensics
+computer network defense
+Computer Network Defense Analysis  
+Computer Network Defense Infrastructure Support
+computer security incident
+confidentiality
+consequence
+Continuity of Operations Plan
+critical infrastructure  
+critical infrastructure and key resources  
+cryptanalysis 
+cryptographic algorithm  
+cryptography  
+cryptology  
+Customer Service and Technical Support  
+cyber ecosystem  
+cyber exercise  
+cyber incident  
+cyber incident response plan  
+cyber infrastructure  
+Cyber Operations  
+Cyber Operations Planning  
+cybersecurity  
+cyberspace  
+Cyber Threat Intelligence (CTI)  
+Data Administration
+data aggregation  
+data breach  
+data integrity
+data leakage  
+data loss  
+data loss prevention
+data mining  
+data spill
+data theft  
+decipher  
+decode  
+decrypt  
+decryption  
+denial of service  
+designed-in security
+digital forensics  
+digital rights management  
+digital signature
+disruption  
+distributed denial of service  
+dynamic attack surface  
+Education and Training
+electronic signature 
+encipher  
+encode  
+encrypt  
+encryption
+enterprise risk management  
+event
+exfiltration 
+exploit  
+Exploitation Analysis  
+Failure  
+firewall
+forensics  
+hacker  
+hash value  
+hashing  
+hazard  
+ICT supply chain threat
+identity and access management  
+impact  
+incident  
+incident management
+incident response
+incident response plan
+indicator  
+Industrial Control System
+information and communication(s) technology
+information assurance
+Information Assurance Compliance
+information security policy
+information sharing  
+information system resilience  
+Information Systems Security Operations
+information technology  
+inside( r) threat  
+integrated risk management  
+integrity  
+intent  
+interoperability  
+intrusion  
+intrusion detection  
+Investigate  
+investigation  
+IT asset  
+key
+key pair  
+key resource  
+keylogger  
+Knowledge Management 
+Legal Advice and Advocacy 
+machine learning and evolution  
+macro virus
+malicious applet  
+malicious code  
+malicious logic  
+malware
+mitigation  
+moving target defense
+network resilience  
+Network Services
+non-repudiation
+object 
+Operate &amp; Maintain
+operational exercise
+Operations Technology  
+outside( r) threat  
+Oversight &amp; Development
+passive attack  
+password
+pen test  
+penetration  
+penetration testing
+Personal Identifying Information / Personally Identifiable Information  
+phishing  
+plaintext  
+precursor
+Preparedness  
+privacy  
+private key  
+Protect &amp; Defend  
+public key  
+public key cryptography  
+public key encryption  
+Public Key Infrastructure  
+Recovery
+Red Team  
+Red Team exercise  
+redundancy  
+resilience  
+response  
+response plan
+risk
+risk analysis  
+risk assessment  
+risk management  
+risk mitigation 
+risk-based data management
+rootkit  
+secret key  
+Securely Provision
+security automation  
+security incident  
+security policy
+Security Program Management  
+signature
+situational awareness  
+software assurance  
+Software Assurance and Security Engineering  
+spam  
+spillage  
+Spoofing  
+spyware  
+Strategic Planning and Policy Development  
+subject  
+Supervisory Control and Data Acquisition
+supply chain  
+Supply Chain Risk Management  
+symmetric cryptography  
+symmetric encryption algorithm  
+symmetric key
+System Administration  
+system integrity
+Systems Development
+Systems Requirements Planning  
+Systems Security Analysis
+Systems Security Architecture  
+tabletop exercise
+tailored trustworthy space
+Targets  
+Technology Research and Development 
+Test and Evaluation
+threat  
+threat actor
+threat agent  
+threat analysis  
+threat assessment  
+ticket  
+traffic light protocol  
+Trojan horse  
+unauthorized access  
+virus  
+vulnerability  
+Vulnerability Assessment and Management  
+weakness  
+White Team
+work factor
+worm  
