@@ -1,5 +1,8 @@
-#Extracts source from the PLM generated analogies
-#Replace openai.api_key with your open ai api key
+'''Extracts source from the PLM generated analogies
+Assign your open ai api key to openai.api_key
+analogies_path should contain the path to the classified analogies from the analoginess scorer
+src_path should contain the output path for saving the extracted source
+''' 
 import openai
 import os 
 from time import sleep
@@ -54,9 +57,7 @@ def main(analogies_path,src_path):
 		for idx,analogy in enumerate(analogies):
 			print(idx)
 			if (analogy,tmps[idx],prompts[idx]) not in done:
-			# if idx>=0:
 				sleep(1)
-				# print(tmps[idx],prompts[idx],analogy,done)
 				if pred_cls[idx] == '1':
 					src = extract_src(analogy,targets[idx])
 					f.write(analogy+'\t'+targets[idx]+'\t'+prompts[idx]+'\t'+tmps[idx]+'\t'+domains[idx]+'\t'+pred_cls[idx]+'\t'+src+'\n')
@@ -64,8 +65,8 @@ def main(analogies_path,src_path):
 
 
 if __name__ == '__main__':
-	analogies_path = '../data/classified_analogies_likes.txt'
-	src_path = '../data/extracted_src_likes.txt'
-	openai.api_key = API_KEY 
+	analogies_path = '../data/analoginess_scorer/non_adapt.txt'
+	src_path = '../data/extracted_src/non_adapt.txt'
+	openai.api_key = OPENAI_API_KEY 
 
 	main(analogies_path,src_path)
