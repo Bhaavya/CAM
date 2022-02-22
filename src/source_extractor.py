@@ -57,8 +57,8 @@ def main(analogies_path,src_path):
 		for idx,analogy in enumerate(analogies):
 			print(idx)
 			if (analogy,tmps[idx],prompts[idx]) not in done:
-				sleep(1)
 				if pred_cls[idx] == '1':
+					sleep(0.8)
 					src = extract_src(analogy,targets[idx])
 					f.write(analogy+'\t'+targets[idx]+'\t'+prompts[idx]+'\t'+tmps[idx]+'\t'+domains[idx]+'\t'+pred_cls[idx]+'\t'+src+'\n')
 
@@ -67,6 +67,5 @@ def main(analogies_path,src_path):
 if __name__ == '__main__':
 	analogies_path = '../data/analoginess_scorer/non_adapt.txt'
 	src_path = '../data/extracted_src/non_adapt.txt'
-	openai.api_key = OPENAI_API_KEY 
-
+	openai.api_key = OPENAI_API_KEY
 	main(analogies_path,src_path)
