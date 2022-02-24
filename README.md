@@ -48,4 +48,10 @@ In case the PLM generated multiple mappings between source and target concepts, 
 
 * `/data/ranked_analogies/discp_adapt.txt`: Contains Adaptive Analogy Ranking Score, Reliability Score, and Adaptiveness Score of Discipline-Specific Adaptive Analogies.  
 * `/data/ranked_analogies/pref_adapt.txt`: Contains Adaptive Analogy Ranking Score, Reliability Score, and Adaptiveness Score of Preference-specific Adaptive Analogies.  
-* `/data/ranked_analogies/non_adapt.txt`: Contains Creative and Existing Analogy Ranking Score, Reliability Score, and Creativity Score of Non-Adaptive Analogies.  
+* `/data/ranked_analogies/non_adapt.txt`: Contains Creative and Existing Analogy Ranking Score, Reliability Score, and Creativity Score of Non-Adaptive Analogies. 
+
+# Analoginess Scorer Model
+
+Trained model available at: https://drive.google.com/file/d/1egpgQyjDd9I0b-_wmIRPsgnK0OGs9FqX/view?usp=sharing. 
+
+Download the model and place in under `/model` under this repo folder to run Analoginess Scorer Prediction Code (`src/analoginess_scorer_pred.py`)
