@@ -14,6 +14,14 @@ For all files names, p<em>n</em> means analogies generated with prompt id <em>n<
 
 Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt.
 
+### Prompt Refinement: 
+
+* `/data/prompt_refiner/discp_adapt.txt`: Candidate Discipline-specific Adaptive Analogies after prompt refinement
+* `/data/prompt_refiner/pref_adapt.txt`: Candidate Preference-specific Adaptive Analogies after prompt refinement
+* `/data/prompt_refiner/non_adapt.txt`: Candidate Non-Adaptive Analogies classified after prompt refinement
+
+Each file contains the following fields separated by tab: (1) Generated analogy after prompt refinement, (2) Target Concept, (3) Original Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Generated analogy before prompt refinement (classified as non-analogy).
+
 ## Analoginess Scorer
 
 * `/data/analoginess_scorer/discp_adapt.txt`: Candidate Discipline-specific Adaptive Analogies classified as non-analogy and analogy
