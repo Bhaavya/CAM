@@ -1,3 +1,8 @@
+'''
+Analoginess Scorer Prediction Code
+Set refined = True for prompt refined analogies
+
+'''
 import os 
 from transformers import BertTokenizer, BertForSequenceClassification
 from transformers import Trainer, TrainingArguments
