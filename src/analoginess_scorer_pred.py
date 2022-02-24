@@ -1,7 +1,6 @@
 '''
 Analoginess Scorer Prediction Code
 Set refined = True for prompt refined analogies
-
 '''
 import os 
 from transformers import BertTokenizer, BertForSequenceClassification
@@ -18,6 +17,7 @@ def read_f(path,refined=False):
 	lines_orig = []
 	tmps = []
 	domains = []
+	old_analogies = []
 	with open(path) as f:
 		for row in f.readlines():
 			splt = row.strip('\n').split('\t')
@@ -28,7 +28,8 @@ def read_f(path,refined=False):
 			if refined:
 				tmps.append(splt[3])
 				domains.append(splt[4])
-	return lines,targets,prompts,lines_orig,tmps,domains
+				old_analogies.append(splt[5])
+	return lines,targets,prompts,lines_orig,tmps,domains,old_analogies
 
 def preprocess_function(examples):
     return tokenizer(examples["text"], truncation=True, padding=True, max_length=max_length)
@@ -42,6 +43,7 @@ def main(parent_dirs,outpaths,refined=False):
 		prompts = []
 		tmps = []
 		domains = []
+		old_analogies = []
 		for f in sorted(os.listdir(parent_dir)):
 			
 			res = read_f(parent_dir+f)
@@ -72,6 +74,7 @@ def main(parent_dirs,outpaths,refined=False):
 			else:
 				tmps += res[4]
 				domains += res[5]
+				old_analogies += res[6]
 
 				
 		print("Number of samples: ",len(samples))
@@ -88,7 +91,10 @@ def main(parent_dirs,outpaths,refined=False):
 		with open(outpaths[pidx],'w') as f:
 			for idx,s in enumerate(samples):
 				# print(s,y_pred[idx],prompts[idx],tmps[idx])
-				f.write(orig_samples[idx]+'\t'+targets[idx]+'\t'+prompts[idx]+'\t'+tmps[idx]+'\t'+domains[idx]+'\t'+str(y_pred[idx])+'\n')
+				if refined:
+					f.write(orig_samples[idx]+'\t'+targets[idx]+'\t'+prompts[idx]+'\t'+tmps[idx]+'\t'+domains[idx]+'\t'+str(y_pred[idx])+'\t'+old_analogies[idx]+'\n')
+				else:
+					f.write(orig_samples[idx]+'\t'+targets[idx]+'\t'+prompts[idx]+'\t'+tmps[idx]+'\t'+domains[idx]+'\t'+str(y_pred[idx])+'\n')
 
 
 if __name__ == '__main__':
