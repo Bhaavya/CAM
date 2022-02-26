@@ -23,7 +23,7 @@ def prompter(prompt,tmp):
 			resps.append(resp["choices"][0]["text"].strip('\n').replace('\n',''))
 		
 	else:
-		pred_src = openai.Completion.create(
+		resp = openai.Completion.create(
 				  engine="text-davinci-001",
 				  prompt= prompt,
 				  temperature=0,
@@ -60,17 +60,15 @@ def read_f(path,src=False):
 
 def main(analogies_path,out_path):
 	analogies, targets, prompts, tmps, domains, pred_cls = read_f(analogies_path)
-	cnt = 0
 	with open(out_path,'a') as f:
 		for idx,analogy in enumerate(analogies):
-			print(idx)
-			if idx>=0:
+			
+			if idx>16095:
 				
 				if pred_cls[idx] == '0':
-					cnt+=1 
-					# print(cnt)
+					print(idx,analogy)
 					
-					sleep(0.8)
+					sleep(0.3)
 					new_anlgies = []
 					prompt = analogy + '\n' + prompts[idx]
 					new_anlgies = prompter(prompt,tmps[idx])
@@ -81,5 +79,5 @@ def main(analogies_path,out_path):
 if __name__ == '__main__':
 	analogies_path = '../data/analoginess_scorer/non_adapt.txt'
 	out_path = '../data/prompt_refiner/non_adapt.txt'
-	openai.api_key = OPENAI_API_KEY
+	openai.api_key = "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"
 	main(analogies_path,out_path)

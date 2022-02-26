@@ -46,7 +46,7 @@ def main(parent_dirs,outpaths,refined=False):
 		old_analogies = []
 		for f in sorted(os.listdir(parent_dir)):
 			
-			res = read_f(parent_dir+f)
+			res = read_f(parent_dir+f,refined)
 			samples += res[0]
 			targets += res[1]
 			prompts += res[2]
