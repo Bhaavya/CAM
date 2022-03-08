@@ -63,7 +63,7 @@ def main(analogies_path,out_path):
 	with open(out_path,'a') as f:
 		for idx,analogy in enumerate(analogies):
 			
-			if idx>16095:
+			if idx>=0:
 				
 				if pred_cls[idx] == '0':
 					print(idx,analogy)
@@ -79,5 +79,5 @@ def main(analogies_path,out_path):
 if __name__ == '__main__':
 	analogies_path = '../data/analoginess_scorer/non_adapt.txt'
 	out_path = '../data/prompt_refiner/non_adapt.txt'
-	openai.api_key = "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"
+	openai.api_key = OPENAI_API_KEY
 	main(analogies_path,out_path)
