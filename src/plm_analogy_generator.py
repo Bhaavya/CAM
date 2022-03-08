@@ -44,7 +44,7 @@ def gen_anlgy(prompt,j,op,target):
 				print(j,k,prompt)
 				print(pred)
 
-			write_out.append("Prompt:\t"+target+':\t'+prompt+'\n\n'+pred["choices"][0]["text"].strip('\n')+'\n')
+			write_out.append(pred["choices"][0]["text"].replace('\n','')+'\t'+target+'\t'+prompt+'\n')
 			with open(op+'_p'+str(j)+'_ht.txt','a') as f:
 				for r in write_out:
 					f.write(r)
@@ -63,7 +63,7 @@ def gen_anlgy(prompt,j,op,target):
 		print(j,prompt)
 		print(pred)
 
-		write_out.append("Prompt:\t"+target+':\t'+prompt+'\n\n'+pred["choices"][0]["text"].strip('\n')+'\n')
+		write_out.append(pred["choices"][0]["text"].replace('\n','')+'\t'+target+'\t'+prompt+'\n')
 		with open(op+'_p'+str(j)+'_ht.txt','a') as f:
 				for r in write_out:
 					f.write(r)
