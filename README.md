@@ -1,4 +1,4 @@
-Repository for code and data associated with the A2M framework paper.
+Repository for code and data associated with the A2M framework paper on analogy generation via prompting GPT-3 (Davinci).
 
 # Data
 
