@@ -1,4 +1,4 @@
-Repository for code and data associated with the A2M framework paper on analogy generation via prompting GPT-3 (Davinci).
+Repository for code and data associated with the CAM framework paper on analogy generation and evaluation via GPT-3 (Davinci).
 
 # Data
 
