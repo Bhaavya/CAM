@@ -12,11 +12,6 @@ For all files names, p<em>n</em> means analogies generated with prompt id <em>n<
 
 Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt.
 
-### Prompt Refinement: 
-
-* `/data/prompt_refiner/non_adapt.txt`: Candidate Analogies classified after prompt refinement
-
-Each file contains the following fields separated by tab: (1) Generated analogy after prompt refinement, (2) Target Concept, (3) Original Prompt, (4) Temperature (low -- lt or high --ht) (5) Domain (for non-adaptive analogies)/Preference/Discipline, (6) Generated analogy before prompt refinement (classified as non-analogy).
 
 ## Analoginess Scorer
 
@@ -51,3 +46,7 @@ In case the PLM generated multiple mappings between source and target concepts, 
 Trained model available at: https://drive.google.com/file/d/1egpgQyjDd9I0b-_wmIRPsgnK0OGs9FqX/view?usp=sharing. 
 
 Download the model and place in under `/model` under this repo folder to run Analoginess Scorer Prediction Code (`src/analoginess_scorer_pred.py`)
+
+# Crowd Evaluation
+
+`data/crowd-eval/science.json`, `data/crowd-eval/ml.json`, `data/crowd-eval/cyber.json`: Format {analogy: meaning: {worker id 1: score 1, ...}, novelty: {worker id 1: score 1, ...}, queries: {worker id 1: queries 1}, urls found: {worker id 1: urls 1}}
