@@ -33,20 +33,20 @@ Each file contains the following fields separated by tab: (1) Generated Analogy,
 
 In case the PLM generated multiple mappings between source and target concepts, they are separated by ###. We only used the first mapping in our experiments.
 
-## Retrieval-based Analogy Mining
+## Analogies retrieved from Web
 
 `/data/ret_am/`: Each file contains analogies retrieved from the Web for one target and source concept pair. It has a json dictionary with the following keys and values: (1) "src_spec_res" with lists of Bing search results returned for <em>source-specific</em> queries, (2) "gen_res" with lists of Bing search results returned for <em>general</em> queries, (3) "all_bing_queries" with the list of all the source-specific and general queries.
 
-## Ranked Analogies
+## Ranked Analogies by Unsupervised CAM
 
 * `/data/ranked_analogies/non_adapt.txt`: Contains Creative Ranking Score, Reliability Score, and Creativity Score of Analogies. 
 
-# Analoginess Scorer Model
+# Analogical Style Scorer Model
 
 Trained model available at: https://drive.google.com/file/d/1egpgQyjDd9I0b-_wmIRPsgnK0OGs9FqX/view?usp=sharing. 
 
-Download the model and place in under `/model` under this repo folder to run Analoginess Scorer Prediction Code (`src/analoginess_scorer_pred.py`)
+Download the model and place in under `/model` under this repo folder to run Analogical Style Scorer Prediction Code (`src/analoginess_scorer_pred.py`)
 
 # Crowd Evaluation
 
-`data/crowd-eval/science.json`, `data/crowd-eval/ml.json`, `data/crowd-eval/cyber.json`: Format {analogy: meaning: {worker id 1: score 1, ...}, novelty: {worker id 1: score 1, ...}, queries: {worker id 1: queries 1}, urls found: {worker id 1: urls 1}}
+`data/crowd-eval/science.json`, `data/crowd-eval/ml.json`, `data/crowd-eval/cyber.json`: Format {analogy: meaning: {worker id1: score1, ...}, novelty: {worker id1: score1, ...}, queries: {worker id1: queries1}, urls found: {worker id1: urls1}}
