@@ -13,7 +13,7 @@ For all files names, p<em>n</em> means analogies generated with prompt id <em>n<
 Each file contains the following fields separated by tab: (1) Generated Analogy, (2) Target Concept, (3) Prompt.
 
 
-## Analoginess Scorer
+## Analogical Style Scorer
 
 * `/data/analoginess_scorer/non_adapt.txt`: Candidate Analogies classified as non-analogy and analogy
 
